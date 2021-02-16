@@ -6,10 +6,10 @@ var nombre2 = 'Maria';
 var calificacionesMaria = [12,16,10];
 
 var promedioPablo = calcularPromedio(calificacionesPablo);
-console.log("Promedio Pablo: "+promedioPablo+" : "+aprobatorio(promedioPablo));
+console.log("Promedio "+nombre1+": "+promedioPablo+" : "+aprobatorio(promedioPablo));
 
 var promedioMaria = calcularPromedio(calificacionesMaria);
-console.log("Promedio Maria: "+ promedioMaria+ " : "+aprobatorio(promedioMaria));
+console.log("Promedio "+nombre2+": "+ promedioMaria+ " : "+aprobatorio(promedioMaria));
 
 mayor(promedioMaria,promedioPablo);
 
