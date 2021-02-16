@@ -1,9 +1,9 @@
 'use strict'
 
 var nombre1 = 'Pablo';
-var calificacionesPablo = [14,8,16];
+var calificacionesPablo = [14,19,16];
 var nombre2 = 'Maria';
-var calificacionesMaria = [12,18,10];
+var calificacionesMaria = [12,16,10];
 
 var promedioPablo = calcularPromedio(calificacionesPablo);
 console.log("Promedio Pablo: "+promedioPablo+" : "+aprobatorio(promedioPablo));
@@ -31,5 +31,5 @@ function aprobatorio(valor){
 }
 
 function mayor(promedio1,promedio2){
-    promedio1 > promedio2 ? console.log('Maria tiene mayor promedio') :('Pablo tiene mayor promedio');
+    promedio1 > promedio2 ? console.log('Maria tiene mayor promedio'):console.log('Pablo tiene mayor promedio');
 }
